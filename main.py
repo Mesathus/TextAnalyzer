@@ -148,7 +148,9 @@ class TextAnalyzer(builtins.object):
 #################################################################################
 #   The code below is intended for testing in an IDE                            #
 #   Only the code above is necessary for Jupyter Notebooks                      #
-#                                                                               #
+#   Text files are duplicated to make copy/pasting to Jupyter easier            #
+#   Ideally we would use them from the //data folder instead                    #
+#   of the base project folder                                                  #
 #################################################################################
 
     def print(self):
